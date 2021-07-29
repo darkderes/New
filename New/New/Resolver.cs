@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Runtime.CompilerServices;
 using Autofac;
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace New
 {
@@ -10,9 +10,10 @@ namespace New
         private static IContainer container;
 
         public static void Initialize(IContainer container)
-        { 
+        {
             Resolver.container = container;
         }
+
         public static T Resolve<T>()
         {
             return container.Resolve<T>();

@@ -1,18 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using New.View;
 using Xamarin.Forms;
 
 namespace New
 {
-    public partial class MainPage : ContentPage
+    public partial class MainShell
     {
-        public MainPage()
+        public MainShell()
         {
             InitializeComponent();
+            Routing.RegisterRoute("articleview", typeof(ArticleView));
         }
     }
 }
