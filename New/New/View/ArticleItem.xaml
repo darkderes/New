@@ -20,7 +20,8 @@
                    Padding="10,0"
                    Grid.Row="1"
                    Grid.Column="1"
-                   FontSize="Medium"
+                   FontSize="Small"
+                   TextColor="Black"
                    FontAttributes="Bold"/>
 
             <Label Text="{Binding PublishedAt, StringFormat='{0:MMMM d, yyyy}'}"
@@ -33,7 +34,7 @@
                    Grid.RowSpan="2"
                    CornerRadius="15"
                    Padding="0"
-                   BackgroundColor="#667788"
+                   BackgroundColor="Azure"
                    IsClippedToBounds="True">
 
                 <Image Source="{Binding UrlToImage}"

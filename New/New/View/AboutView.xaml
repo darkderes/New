@@ -6,6 +6,7 @@
         <StackLayout>
             <Label Text="About View!"
                 VerticalOptions="Center" 
+                   TextColor="Black"
                 HorizontalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>

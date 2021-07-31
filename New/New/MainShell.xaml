@@ -8,7 +8,7 @@
         <ShellContent ContentTemplate="{DataTemplate views:HeadlinesView}" Title="Headlines"
                       Icon="{StaticResource HeadlinesIcon}" />
 
-        <Tab Title="News" Route="news" Icon="{StaticResource NewsIcon}">
+        <Tab Title="News"  Route="new"  Icon="{StaticResource NewsIcon}">
             <ShellContent Title="Local" Route="ducklocal" >
                 <ShellContent.ContentTemplate>
                     <DataTemplate>
